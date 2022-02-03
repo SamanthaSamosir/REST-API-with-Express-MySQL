@@ -1,7 +1,7 @@
 {
   "name": "rest-api-with-express-mysql",
   "version": "1.0.0",
-  "description": "REST API with Node.js, Express and MySQL",
+  "description": "REST API with Node.js, Express, Sequelize and MySQL",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +14,21 @@
     "nodejs",
     "express",
     "mysql",
-    "restapi"
+    "restapi",
+    "api"
   ],
   "author": "Samantha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL/issues"
   },
-  "homepage": "https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL#readme"
+  "homepage": "https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0"
+  }
 }
