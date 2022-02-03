@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-with-express-mysql",
+  "version": "1.0.0",
+  "description": "REST API with Node.js, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Samantha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL/issues"
+  },
+  "homepage": "https://github.com/SamanthaMeliora/REST-API-with-Express-MySQL#readme"
+}
